@@ -1,0 +1,10 @@
+a=int(input("Въведете число:"))
+intTuple=()
+for i in range(1, a+1):
+  value=int(input("Въведете число за кортеж:"))
+  intTuple+=(value,)
+  asc_intTuple=sorted(intTuple)
+  desc_intTuple=sorted(asc_intTuple,reverse=True)
+print("intTUple:", intTuple)
+print("ASC:", asc_intTuple)
+print("DESC:", desc_intTuple)
